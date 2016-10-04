@@ -16,6 +16,6 @@
 
 	}
 
-	$obj = new html;
+	$obj = new html('Hello World');
 
 ?>
