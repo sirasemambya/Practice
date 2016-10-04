@@ -13,9 +13,16 @@
 
 	class htmlTable {
 		protected $table;
+		public function getTableHTML() (
+
+		$html = 'some table html';
 
 	}
 
-	$obj = new html('Hello World');
+	$obj = new htmlTable;
+	$html = $obj ->getTableHTML();
+
+	echo $html;
+
 
 ?>
