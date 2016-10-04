@@ -11,7 +11,7 @@
 
 	)
 
-	class htmlTable {
+	class htmlTable extends html {
 		protected $table;
 		public function getTableHTML() (
 
@@ -22,7 +22,7 @@
 	$obj = new htmlTable;
 	$html = $obj ->getTableHTML();
 
-	echo $html;
+	echo $obj -> $html;
 
 
 ?>
